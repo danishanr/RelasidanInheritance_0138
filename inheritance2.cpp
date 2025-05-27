@@ -10,7 +10,7 @@ public :
         nama(pNama) {
         cout << "orang dibuat\n" << endl;
         }
-    ~orang(){
+    ~orang() {
         cout << "orang dihapus\n" << endl;
     }
 
@@ -31,7 +31,7 @@ public :
     }
 
     string perkenalan() {
-        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah +"\n\n";
+        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n";
     }
 };
 
